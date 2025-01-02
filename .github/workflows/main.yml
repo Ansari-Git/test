@@ -44,9 +44,6 @@ jobs:
       with:
         flutter-version: ${{ env.FLUTTER_VERSION }}
 
-    - name: Install Flutter Dependencies
-      run: flutter pub get
-
     - name: Debug Environment
       run: |
         flutter --version
